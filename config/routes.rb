@@ -1,4 +1,18 @@
 SignsOfHopeInAfrica::Application.routes.draw do
+  get "welcome/index"
+
+  get "welcome/about"
+
+  get "welcome/programs"
+
+  get "welcome/events"
+
+  get "welcome/sponsors"
+
+  get "welcome/help"
+
+  get "welcome/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
