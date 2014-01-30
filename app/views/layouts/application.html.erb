@@ -7,18 +7,23 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <ul class="nav nav-tabs">
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "About Us", welcome_about_path %></li>
+          <li><%= link_to "Programs", welcome_programs_path %></li>
+          <li><%= link_to "Events", welcome_events_path %></li>
+          <li><%= link_to "Sponsors", welcome_sponsors_path %></li>
+          <li><%= link_to "How You Can Help", welcome_help_path %></li>
+          <li><%= link_to "Contact Us", welcome_contact_path %></li>
+        </ul>
 
-  <ul>
-    <li><%= link_to "Home", root_path %></li>
-    <li><%= link_to "About Us", welcome_about_path %></li>
-    <li><%= link_to "Programs", welcome_programs_path %></li>
-    <li><%= link_to "Events", welcome_events_path %></li>
-    <li><%= link_to "Sponsors", welcome_sponsors_path %></li>
-    <li><%= link_to "How You Can Help", welcome_help_path %></li>
-    <li><%= link_to "Contact Us", welcome_contact_path %></li>
-  </ul>
-
-<%= yield %>
+        <%= yield %>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
