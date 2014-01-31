@@ -15,3 +15,13 @@
 //= require bootstrap
 //= require fancybox
 //= require_tree .
+
+$(document).ready( function() {
+$('.dropdown-toggle').dropdown();
+});
+
+$(document).ready(function() {
+	  $('.carousel').carousel({
+	    interval:4000
+	  });
+	});

@@ -1,18 +1,34 @@
 SignsOfHopeInAfrica::Application.routes.draw do
 
-  root to: 'welcome#index'
+  match "breakfast" => "welcome#breakfast", via: :get
 
-  get "welcome/about"
+  match "family" => "welcome#family", via: :get
 
-  get "welcome/programs"
+  match "school" => "welcome#school", via: :get
 
-  get "welcome/events"
+  match "classroom" => "welcome#classroom", via: :get
 
-  get "welcome/sponsors"
+  match "gift" => "welcome#gift", via: :get
 
-  get "welcome/help"
+  match "bicycle" => "welcome#bicycle", via: :get
 
-  get "welcome/contact"
+  match "sign" => "welcome#sign", via: :get
+
+  match "eye" => "welcome#eye", via: :get
+
+  match "about" => "welcome#about", via: :get
+
+  match "programs" => "welcome#programs", via: :get
+
+  match "events" => "welcome#events", via: :get
+
+  match "sponsors" => "welcome#sponsors", via: :get
+
+  match "help" => "welcome#help", via: :get
+
+  match "contact" => "welcome#contact", via: :get
+
+  root :to => 'welcome#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

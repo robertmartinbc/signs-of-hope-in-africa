@@ -3,8 +3,14 @@
 <head>
   <title>SignsOfHopeInAfrica</title>
 
-  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
@@ -23,6 +29,7 @@
   });
 });
 </script>
+
 </head>
 <body>
   <div class="container">
@@ -30,12 +37,23 @@
       <div class="span12">
         <ul class="nav nav-tabs">
           <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "About Us", welcome_about_path %></li>
-          <li><%= link_to "Programs", welcome_programs_path %></li>
-          <li><%= link_to "Events", welcome_events_path %></li>
-          <li><%= link_to "Sponsors", welcome_sponsors_path %></li>
-          <li><%= link_to "How You Can Help", welcome_help_path %></li>
-          <li><%= link_to "Contact Us", welcome_contact_path %></li>
+          <li><%= link_to "About Us", about_path %></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><%= link_to "Breakfast Program", breakfast_path %></li>
+              <li><%= link_to "Family Sponsorship", family_path %></li>
+              <li><%= link_to "Classroom Project", classroom_path %></li>
+              <li><%= link_to "School Uniform", school_path %></li>
+              <li><%= link_to "Gift of Giving", gift_path %></li>
+              <li><%= link_to "Bicycle Program", bicycle_path %></li>
+              <li><%= link_to "Sign Language", sign_path %></li>
+              <li><%= link_to "Eye Clinic", eye_path %></li>
+            </ul>
+          </li>
+          <li><%= link_to "Events", events_path %></li>
+          <li><%= link_to "Sponsors", sponsors_path %></li>
+          <li><%= link_to "How You Can Help", help_path %></li>
+          <li><%= link_to "Contact Us", contact_path %></li>
         </ul>
 
   <div class="row">
