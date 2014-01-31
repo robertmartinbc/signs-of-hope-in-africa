@@ -1,2 +1,41 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="span12">
+          <div id="myCarousel" class="carousel">
+            <div class="carousel-inner">
+        	<div class="item active">
+        		<%= image_tag("Signs_of_Hope_in_Africa_1.jpg", class: "img-rounded") %>
+        	</div>
+            <div class="item">
+            	<%= image_tag("Signs_of_Hope_in_Africa_2.jpg", class: "img-rounded") %>
+            </div>
+            <div class="item">
+              <%= image_tag("Signs_of_Hope_in_Africa_3.jpg", class: "img-rounded") %></div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="span4">
+    <h2><center>Our Mission</center></h2>
+    <p text-align="justify">We are a Canadian not-for-profit organization dedicated to improving the quality of life for children and their families living in Jambiani, Tanzania.</p>
+  </div>
+  <div class="span4">
+    <h2><center>Programs</center></h2>
+    <p text-align="justify">Through sustainable initiatives, we empower villagers to break the cycle of poverty and thrive as a community. Our programs employ and are managed by local villagers.</p>
+  </div>
+  <div class="span4">
+    <h2><center>Join Us</center></h2>
+    <p text-align="justify">AMAZING RACE FOR AFRICA, Sunday November 3rd, 2013 from 11am-4pm. Teams of 4!  Get registered now to avoid disappointment! Details under Events.</p>
+  </div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	  $('.carousel').carousel({
+	    interval:4000
+	  });
+	});
+</script>

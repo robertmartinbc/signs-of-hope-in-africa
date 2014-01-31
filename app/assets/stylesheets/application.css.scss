@@ -12,3 +12,10 @@
  *= require_tree .
  */
  @import "bootstrap";
+
+ p {
+  font-family: "Arial", Helvetica, serif;
+  font-size: 16px;
+  text-align: justify;
+  text-decoration: none;
+}
