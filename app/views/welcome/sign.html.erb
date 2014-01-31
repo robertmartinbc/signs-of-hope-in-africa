@@ -1,2 +1,41 @@
-<h1>Welcome#sign</h1>
-<p>Find me in app/views/welcome/sign.html.erb</p>
+<div class="container">
+	<div class="row">
+		<div class="span12">
+			<p><%= image_tag("header_image_6.jpg") %></p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="span12">
+		<h3>Sign Language Program</h3>
+	</div>
+</div>
+
+<div class="row">
+	<div class="span8">
+		<p>Our Sign Language Program funded transportation costs for a group of Deaf children to attend weekly Sign language classes* in Stone Town (the historical city of Zanzibar and a UNESCO World Heritage Site). In these classes, the children had the opportunity to interact with adult Deaf role models and develop friendships and peer groups with other Deaf children from around the island.</p>
+
+		<p>The program also instructed family members, friends, neighbours and local schoolteachers in Sign language, enabling them to interact with the children. This greatly increased the children's involvement within the village. One of these children, now a young woman, is able to care for her family's chicken business. Another young man is currently in a training program preparing to become a prep-cook!</p>
+
+		<p>This program was made possible through the sale of our Sign language tea towels. Please <%= link_to "contact", contact_path %> us if you are interested in purchasing these Sign language tea towels.</p>
+
+		<h4><strong><center>*These classes are currently on hold due to circumstances beyond our control. It is included to show some of the wonderful benefits it has already provided the families of Jambiani.</center></strong></h4>
+	</div>
+	<div class="span2">
+		<%= link_to image_tag("sign_1.jpg", class: "img-rounded"), asset_path("sign_1.jpg"), class: "fancybox-button", rel: "fancybox-button", title: "" %>
+
+	</div>
+	<div class="span2">
+		<%= link_to image_tag("sign_2.jpg", class: "img-rounded"), asset_path("sign_2.jpg"), class: "fancybox-button", rel: "fancybox-button", title: "" %>
+	</div>
+	<div class="span2">
+		<br>
+		<%= link_to image_tag("sign_3.jpg", class: "img-rounded"), asset_path("sign_3.jpg"), class: "fancybox-button", rel: "fancybox-button", title: "" %>
+	</div>
+	<div class="span2">
+		<br>
+		<%= link_to image_tag("sign_1.jpg", class: "img-rounded"), asset_path("sign_1.jpg"), class: "fancybox-button", rel: "fancybox-button", title: "" %>
+	</div>
+</div>
+
