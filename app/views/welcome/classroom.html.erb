@@ -1,2 +1,44 @@
-<h1>Welcome#classroom</h1>
-<p>Find me in app/views/welcome/classroom.html.erb</p>
+<div class="container">
+	<div class="row">
+		<div class="span12">
+			<p><%= image_tag("header_image_13.jpg") %></p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="span12">
+		<h3>Classroom Project</h3>
+	</div>
+</div>
+
+<div class="row">
+	<div class="span8">
+		<p>In 2012, we replaced the leaking and rotting roof on the primary school building. In 2013, the goals of the Classroom Project are to cement floors and walls of 5 primary classrooms, and furnish them with 4-seater desks. Currently, the children sit either on the dirt floor or on broken chairs with another student, making it difficult for them to learn and concentrate.</p>
+
+		<p>Desks are built on the island and transported on the roof by a local bus, called a 'dala-dala', thus contributing significantly to the local economy.</p>
+
+		<p>We are also purchasing cement and hiring the services of a local worker to cement the floors and walls of each of the 5 primary classrooms.</p>
+
+		<h4><strong><center>The cost of a new desk being built and delivered is $110.</center></strong></h4>
+
+		<h4><strong><center>The cost to cement a classroom is $230.</center></strong></h4>
+
+	</div>
+	<div class="span2">
+		<%= link_to image_tag("classroom_1.jpg", class: "img-rounded"), asset_path("classroom_1.jpg"), class: "fancybox-button", rel: "fancybox-button", title: "" %>
+
+	</div>
+	<div class="span2">
+		<%= link_to image_tag("classroom_2.jpg", class: "img-rounded"), asset_path("classroom_2.jpg"), class: "fancybox-button", rel: "fancybox-button", title: "" %>
+	</div>
+	<div class="span2">
+		<br>
+		<%= link_to image_tag("classroom_3.jpg", class: "img-rounded"), asset_path("classroom_3.jpg"), class: "fancybox-button", rel: "fancybox-button", title: "" %>
+	</div>
+	<div class="span2">
+		<br>
+		<%= link_to image_tag("classroom_1.jpg", class: "img-rounded"), asset_path("classroom_1.jpg"), class: "fancybox-button", rel: "fancybox-button", title: "" %>
+	</div>
+</div>
+

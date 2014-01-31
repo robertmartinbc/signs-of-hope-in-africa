@@ -1,5 +1,7 @@
 SignsOfHopeInAfrica::Application.routes.draw do
 
+  get "welcome/school"
+
   match "breakfast" => "welcome#breakfast", via: :get
 
   match "family" => "welcome#family", via: :get
