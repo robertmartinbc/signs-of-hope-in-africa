@@ -1,0 +1,187 @@
+body {
+	width: 100%;
+	height: 100%;
+	font: 13px/22px "Trebuchet MS", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	color: #003300;
+	padding-top: 53px;
+	min-width: 1040px;
+	background-color: #0000FF;
+	background-image: url(images/background.png);
+	background-repeat: repeat-x;
+}
+a, a:visited {
+	color: #0000ff;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover {
+	color: #86ae35;
+	text-decoration: none;
+}
+a:focus, a:active {
+	color: #86ae35;
+	text-decoration: none;
+	outline: none;
+}
+.clear {
+	clear: both;
+	height: 0;
+	background: #EDFFA6;
+}
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.main {
+	margin: 0 auto;
+	width: 1040px;
+}
+p {
+	margin-bottom: 22px;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+strong {
+	color: #0000ff;
+	font-weight: bolder;
+}
+#page1 #content {
+	padding-bottom: 40px;
+}
+#page3 #content, #page4 #content, #page5 #content, #page6 #content, #page7 #content {
+	padding-bottom: 35px;
+}
+
+/* H1-H6
+========================================================================= */
+h2 {
+	color: #0000ff;
+	font-family: 'Arial', sans-serif;
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: 300;
+}
+h3 {
+	font: 300 30px/36px 'Arial', sans-serif;
+	color: #0000ff;
+}
+h4 {
+	color: #009900;
+	font-family: 'Arial', sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+/* IDENT's
+========================================================================= */
+
+/* ----- MARGIN's -----*/
+/* ----- Bottom -----*/
+.margin_bottom_1, .margin_bottom_9 {margin-bottom: 20px;}
+.margin_bottom_2, .margin_bottom_16, .margin_bottom_21  {margin-bottom: 50px;}
+.margin_bottom_3 {margin-bottom: 43px;}
+.margin_bottom_4, .margin_bottom_7   {margin-bottom: 30px;}
+.margin_bottom_5, .margin_bottom_11 {margin-bottom: 40px;}
+.margin_bottom_6 {margin-bottom: 8px;}
+.margin_bottom_8 {margin-bottom: 19px;}
+.margin_bottom_12, .margin_bottom_15 {margin-bottom: 23px;}
+.margin_bottom_13 {margin-bottom: 10px;}
+.margin_bottom_14 {margin-bottom: 31px;}
+.margin_bottom_17 {margin-bottom: 53px;}
+.margin_bottom_18 {margin-bottom: 22px;}
+.margin_bottom_19 {margin-bottom: 21px;}
+.margin_bottom_20 {margin-bottom: 29px;}
+.margin_bottom_22 {margin-bottom: 12px;}
+.margin_bottom_23 {margin-bottom: 19px;}
+.margin_bottom_24 {margin-bottom: 37px;}
+.margin_bottom_25 {margin-bottom: 41px;}
+.margin_bottom_26 {margin-bottom: 35px;}
+.margin_bottom_27 {margin-bottom: 46px;}
+.margin_bottom_10 { margin-bottom: 27px;}
+
+/* ----- Right -----*/
+.margin_right_1 {margin-right: 46px;}
+
+/* ----- Top -----*/
+.margin_top_1 {margin-top: 22px;}
+.margin_top_2 {margin-top: -4px;}
+.margin_top_3 {margin-top: -9px;}
+.margin_top_4 {margin-top: -3px;}
+
+/* ----- Left -----*/
+.margin_left_1 {margin-left: 56px;}
+.margin_left_2 {margin-left: 8px;}
+.margin_left_3 {margin-left: 2px;}
+.margin_left_4 {margin-left: 10px;}
+
+
+/* ----- PADDING's -----*/
+/* ----- Bottom -----*/
+.padding_bottom_1 {
+	padding-bottom: 56px;
+}
+.padding_bottom_2 {
+	padding-bottom: 44px;
+}
+
+.padding_bottom_3 {
+	padding-bottom: 0px !important;
+}
+
+/* ----- Right -----*/
+.padding_right_1 {padding-right: 43px;}
+.padding_right_2 {padding-right: 43px;}
+
+/* ----- Left -----*/
+.padding_left_1 {padding-left: 49px;}
+.padding_left_2 {padding-left: 26px;}
+
+/* BUTTON's
+========================================================================= */
+
+a.button_1 {
+	display:inline-block;
+	font-size: 16px;
+	line-height: 38px;
+	color: #fff;
+	background: #0000ff;
+	padding: 0 22px 0 20px;
+	position: absolute;
+	bottom: 16px;
+}
+a.button_2 {
+	display:inline-block;
+	font-size: 18px;
+	line-height: 38px;
+	color: #111;
+	background: #339900;
+	padding: 0 22px 2px 20px;
+}
+a.button_3 {
+	display:inline-block;
+	font-size: 18px;
+	line-height: 40px;
+	color: #fff;
+	background: #ffff00;
+	padding: 0 24px 0 25px;
+}
+
+a.b1 {
+	position:static;
+	margin-top:20px;	
+	bottom: 0px;
+}
+a.b1_ {
+	margin-top:35px;
+}
+.main_box1 {
+	padding-bottom:20px !important;
+}
+
+
