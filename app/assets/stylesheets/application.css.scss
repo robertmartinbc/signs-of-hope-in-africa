@@ -15,6 +15,14 @@
 
  @import "bootstrap";
 
+ body {
+ 	background: #FFFFFF;
+ }
+
+ .container {
+ 	background: #FFFFFF;
+ }
+
  p {
   font-family: "Arial", Helvetica, serif;
   font-size: 16px;
@@ -34,4 +42,8 @@
 
 .supporter {
 	text-align: center;
+}
+
+.site-headers {
+	color: #0295DA;
 }
